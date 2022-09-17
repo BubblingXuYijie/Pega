@@ -25,3 +25,50 @@
 
 ![](./img/OperateAccessGroup.jpg)
 ![](./img/SwitchApp.jpg)
+
+# 三、几个关键的Activity
+
+0、Data层的 Process 里面有一个 Flow Action，这是打开添加数据的弹窗的，在Section中调用，忘记截图了
+
+1、GetTaskList，从数据库拉取数据
+
+![](./img/GetTaskList1.png)
+![](./img/GetTaskList2.png)
+![](./img/GetTaskList3.png)
+![](./img/GetTaskList4.png)
+
+
+
+
+
+2、SaveTask
+
+
+![](./img/SaveTask1.png)
+![](./img/SaveTask2.png)
+![](./img/SaveTask3.png)
+![](./img/SaveTask4.png)
+![](./img/SaveTask5.png)
+
+
+
+
+3、删除数据
+
+(1) AfterDeleteItem，删除以后要调用一下保存
+
+![](./img/AfterDeleteItem.png)
+
+
+(2) DeleteItem
+
+![](./img/DeleteItem1.png)
+![](./img/DeleteItem2.png)
+![](./img/DeleteItem3.png)
+
+
+
+
+
+
+
